@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageButton
+        android:id="@+id/sederancagua"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_x="8dp"
+        android:layout_y="16dp"
+        android:src="@drawable/sederancagua" />
+
+    <ImageButton
+        android:id="@+id/sedelaserena"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_x="8dp"
+        android:layout_y="102dp"
+        android:src="@drawable/sedelaserena" />
+
+    <ImageButton
+        android:id="@+id/sedesanjoaquin"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_x="8dp"
+        android:layout_y="184dp"
+        android:onClick="sj"
+        android:src="@drawable/sedesanjoaquin" />
+
+    <ImageButton
+        android:id="@+id/sedetemuco"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_x="10dp"
+        android:layout_y="276dp"
+        android:src="@drawable/sedetemuco" />
+
+    <ImageButton
+        android:id="@+id/sederepublica"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_x="10dp"
+        android:layout_y="364dp"
+        android:src="@drawable/sederecublica4" />
+
+</AbsoluteLayout>

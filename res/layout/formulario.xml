@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "#E0F8F1"  >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="44dp"
+        android:layout_y="14dp"
+        android:text="Bienvenido al formulario "
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="40dp"
+        android:text="Ingrese Nombre :" />
+
+    <TextView
+        android:id="@+id/tvSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="19dp"
+        android:layout_y="82dp"
+        android:text="Ingrese Apellido :" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_x="146dp"
+        android:layout_y="71dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/tvComentario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="123dp"
+        android:text="Correo Electronico : " />
+
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_x="147dp"
+        android:layout_y="109dp"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/et4"
+        android:layout_width="286dp"
+        android:layout_height="95dp"
+        android:layout_x="16dp"
+        android:layout_y="278dp"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_x="146dp"
+        android:layout_y="36dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="164dp" />
+
+    <Button
+        android:id="@+id/btnenviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="122dp"
+        android:layout_y="394dp"
+        android:onClick="enviar"
+        android:text="Enviar" />
+
+</AbsoluteLayout>

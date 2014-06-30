@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="20dp"
+        android:text="BIENVENIDO A IP CHILE "/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_x="246dp"
+        android:layout_y="2dp"
+        android:src="@drawable/logoipchile" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="210dp"
+        android:layout_height="70dp"
+        android:layout_x="11dp"
+        android:layout_y="82dp"
+        android:onClick="sedes"
+        android:src="@drawable/sedes" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="210dp"
+        android:layout_height="70dp"
+        android:layout_x="14dp"
+        android:layout_y="211dp"
+        android:src="@drawable/calificaciones" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="205dp"
+        android:layout_height="65dp"
+        android:layout_x="18dp"
+        android:layout_y="150dp"
+        android:src="@drawable/horariodeclases" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="205dp"
+        android:layout_height="75dp"
+        android:layout_x="18dp"
+        android:layout_y="277dp"
+        android:onClick="contacto"
+        android:src="@drawable/contacto" />
+
+</AbsoluteLayout>
